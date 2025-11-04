@@ -1,0 +1,120 @@
+
+.day-view.data-v-df71777b {
+  padding: 10px;
+}
+.day-header-bar.data-v-df71777b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-btn.data-v-df71777b {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+}
+.header-title.data-v-df71777b {
+  font-size: 18px;
+  font-weight: bold;
+}
+.day-body.data-v-df71777b {
+  min-height: 300px;
+  border: 1px dashed #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+.event-item.data-v-df71777b {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.event-content.data-v-df71777b {
+  display: flex;
+}
+.event-time.data-v-df71777b {
+  font-weight: bold;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.event-title.data-v-df71777b {
+  flex: 1;
+}
+.dialog.data-v-df71777b {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+.dialog-mask.data-v-df71777b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dialog-content.data-v-df71777b {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-height: 80%;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.dialog-header.data-v-df71777b {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+.dialog-title.data-v-df71777b {
+  font-size: 18px;
+  font-weight: bold;
+}
+.dialog-body.data-v-df71777b {
+  padding: 15px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.form-group.data-v-df71777b {
+  margin-bottom: 15px;
+}
+.form-group label.data-v-df71777b {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-group input.data-v-df71777b,
+.form-group textarea.data-v-df71777b {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.event-field.data-v-df71777b {
+  margin-bottom: 10px;
+}
+.field-label.data-v-df71777b {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.dialog-footer.data-v-df71777b {
+  padding: 15px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-around;
+}
+.dialog-footer button.data-v-df71777b {
+  padding: 8px 16px;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}

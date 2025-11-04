@@ -1,0 +1,14 @@
+
+.calendar-container.data-v-6e8913ab {
+  padding: 10px;
+}
+.view-selector.data-v-6e8913ab {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.picker-label.data-v-6e8913ab {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+}

@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="{{a}}"></image><view class="text-area"><text class="title">欢迎使用日历应用</text></view><button class="navigate-btn" bindtap="{{b}}">进入日历</button></view>
