@@ -169,3 +169,54 @@
 - 利用 Vue 的响应式系统实现数据绑定和状态管理
 - 通过 props 和 events 实现父子组件通信
 - 使用生命周期钩子处理组件初始化和销毁逻辑
+
+⑤ 项目启动指南
+
+后端服务启动
+
+1. 环境准备
+   - 确保已安装 Node.js (推荐 v14.x 或更高版本)
+   - 确保已安装 MongoDB 数据库并正在运行
+2. 安装依赖
+       cd calendar-server
+       npm install
+3. 启动服务
+       npm start
+   或
+       node app.js
+4. 验证服务
+   - 服务默认运行在端口 3000
+   - 访问 http://localhost:3000 应该看到 "📅 Calendar API 正在运行..." 的提示信息
+
+前端项目启动（HBuilderX）
+
+1. 环境准备
+   - 下载并安装 HBuilderX 开发工具
+2. 导入项目
+   - 打开 HBuilderX
+   - 选择 "文件" -> "导入" -> "从本地目录导入"
+   - 选择 calendar-uniapp 目录导入项目
+3. 配置服务端地址
+   - 在项目资源管理器中找到 utils/config.js 文件
+   - 根据你的网络环境修改 baseURL 中的 IP 地址，确保能正确访问后端服务
+4. 运行项目
+   - 在 HBuilderX 顶部工具栏点击绿色的 "运行" 按钮
+   - 选择运行目标：
+     - Chrome 浏览器：用于在浏览器中调试
+     - Android 手机/模拟器：用于在安卓设备上运行
+     - 其他平台：如微信小程序、iOS等
+
+注意事项
+
+1. 数据库连接
+   - 确保 MongoDB 服务正在运行
+   - 默认连接地址为 mongodb://127.0.0.1:27017/calendarApp
+   - 如需修改数据库连接地址，可在 calendar-server/config/db.js 中调整
+2. 跨域问题
+   - 后端已配置 CORS，通常不会出现跨域问题
+   - 如遇跨域问题，请检查后端 app.js 中的 cors 配置
+3. 网络配置
+   - 如果在真机上运行前端应用，需要确保手机和电脑在同一局域网内
+   - 修改 calendar-uniapp/utils/config.js 中的 IP 地址为电脑的实际 IP 地址
+4. 端口占用
+   - 后端默认使用 3000 端口，如需修改可在 calendar-server/app.js 中更改
